@@ -55,3 +55,11 @@ Special thanks to [arXiv](https://arxiv.org/) for maintaining an incredible reso
 Please feel free to open an issue or submit a pull request.
 
 
+## Future Enhancements
+
+While Arxiv Paper Scraper is fully functional and ready to use, there are additional features and enhancements planned to make it even more versatile and user-friendly. Here are some of the features that might be added in the future:
+
+- **Import to BibTeX:** Automate the creation of BibTeX entries for the downloaded papers, simplifying the process of adding them to literature management software.
+- **Integration with Mendeley:** Provide an option to directly import downloaded papers into Mendeley.
+
+These features are on the project's roadmap and might be implemented as time permits. If you're interested in contributing to these enhancements or have other suggestions, feel free to open an issue or submit a pull request.
