@@ -1,4 +1,4 @@
-Srape and download papers from arxiv.org
+# Srape and download Papers from arxiv.org
 
 Installation: 
 ```bash
