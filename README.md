@@ -1,13 +1,24 @@
-Get IRS data frequently
+Srape and download papers from arxiv.org
 
 Installation: 
 ```bash
 pip install -r requirements.txt
 ```
 
-Running: 
+Edit the config.py file to set the search query and the number of papers to download   
 ```python
-python script.py
+search_term='intrusion detection system'
+start_year=2022
+end_year=2024
+size_per_page=200
+order='-announced_date_first' # announcement date (newest first)
+max_results=1000
+get_abstract = False
+download_pdf = False
 ```
 
-Note: class IDS need to be updated in the irswar.py file, by capturing the request from browser first
+
+Running: 
+```python
+python scrap.py
+```
